@@ -1,0 +1,30 @@
+## YAML Template.
+---
+
+name: ZorgProduction
+version: 1.0
+load: STARTUP
+author: Bchru
+main: main.ZorgProduction
+softdepend: [Vault, Essentials]
+
+commands:
+    azure:
+        description: Main command
+    zorg:
+        description: /help zorg
+    website:
+        description: Sends link to the website
+    uses:
+    cateyes:
+        description: Turns on Nightvision
+    cateyesoff:
+        description: Turns off Nightvision
+    praytoAnemo:
+        description: Prays to the Wind of the ease | Needs 30 Mora
+    praytoGeo:
+        description: Prays to the Highest Mountains | Needs 30 Mora
+    praytomäx:
+        description: Prays to the holy Cats | Needs 30 Mora
+    praytoCheeseburgers:
+        description: Prays to Cheeseburgers | Costs 30 Mora
